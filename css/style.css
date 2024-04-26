@@ -293,3 +293,60 @@ a {
 	font-size: 22px;
 	line-height: 1.5;
 }
+
+.index-collaction {
+	background-color: url(--darkgold-bg);
+	background-image: url(../img/index-collection.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.index-collaction__info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 600px;
+	width: 100%;
+	text-align: center;
+	color: var(--white-color);
+	margin-bottom: 80px;
+}
+
+.index-collaction__list {
+	display: flex;
+	margin-left: -20px;
+	padding: 0px;
+}
+
+.index-collaction__item:nth-child(1) {
+	position: relative;
+}
+
+.index-collaction__item-logo {
+	position: absolute;
+	left: -64px;
+	top: -68px;
+}
+
+.index-collaction__item:not(:last-child) {
+	margin-right: 20px;
+}
+
+.index-collaction__img {
+	width: 433px;
+	height: 500px;
+	object-fit: cover;
+	margin-bottom: 28px;
+}
+
+.index-collaction__item-title {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
