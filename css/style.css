@@ -58,6 +58,7 @@ body {
 	line-height: 1.55;
 	font-size: 18px;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 .container {
@@ -295,12 +296,15 @@ a {
 }
 
 .index-collaction {
+	position: relative;
 	background-color: url(--darkgold-bg);
 	background-image: url(../img/index-collection.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-bottom: 420px;
 	padding-top: 50px;
+	margin-bottom: 289px;
 }
 
 .index-collaction__info {
@@ -318,9 +322,11 @@ a {
 }
 
 .index-collaction__list {
+	position: absolute;
 	display: flex;
 	margin-left: -20px;
 	padding: 0px;
+	margin-left: -10px;
 }
 
 .index-collaction__item:nth-child(1) {
@@ -349,4 +355,99 @@ a {
 	font-size: 30px;
 	line-height: 1.2;
 	margin-bottom: 10px;
+}
+
+.how-it-works__inner {
+	position: relative;
+	background-image: url(../img/how-it-works-bg.jpg);
+	padding: 50px 30px;
+}
+
+.how-it-works__img {
+	position: absolute;
+	right: 68px;
+	top: 41px;
+}
+
+.how-it-works__title {
+	color: var(--white-color);
+	text-align: center;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.2;
+	margin-bottom: 80px;
+}
+
+.how-it-works__kvadrat {
+	max-width: 966px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-image: url(../img/how-it-works__kvadrat.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: transparent;
+	margin-bottom: 20px;
+}
+
+.how-it-works__kvadrat-inner {
+	width: 60px;
+	height: 60px;
+	background-color: var(--white-color);
+	border: 4px solid var(--darkgold-bg);
+}
+
+.how-it-works__list {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 60px;
+}
+
+.how-it-works__item {
+	background-color: var(--white-color);
+	padding: 20px 20px 40px;
+	color: var(--text-color);
+}
+
+.how-it-works__item:not(:last-child) {
+	margin-right: 20px;
+}
+
+.how-it-works__item-number {
+	font-weight: 400;
+	font-size: 60px;
+	text-align: right;
+	line-height: 1.2;
+	margin-bottom: 45px;
+}
+
+.how-it-works__item-info {
+	max-width: 385px;
+	width: 100%;
+}
+
+.how-it-works__item-title {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.hhh {
+	max-width: 231px;
+	width: 100%;
+}
+
+.how-it-works__btn-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.how-it-work__btn {
+	background-color: var(--darkgold-bg);
 }
